@@ -1,6 +1,6 @@
 Config = {
     Debug = false, -- Enable to add debug boxes and message.
-    img = "lj-inventory/html/images/", -- Set this to your inventory
+    img = "qb-inventory/html/images/", -- Set this to your inventory
     RandomLocation = true, -- Set to true if you want random location. False = create for each location a blackmarket
     OpenWithItem = false, -- Is there an item needed to open the blackmarket ?
     ItemName = "blackpass", -- If you set the above function to yes, place here your itemname
@@ -16,9 +16,9 @@ Config = {
 
 Config.Weapons = {
 	["weapons"] = {
-        [1] = { name = "weapon_pistol", price = 14000, amount = 1, scratchprice = 2500 },
-		[2] = { name = "weapon_microsmg", price = 850, amount = 1, scratchprice = 2500 },
-		[3] = { name = "weapon_appistol", price = 550, amount = 1, scratchprice = 2500 },
+        [1] = { name = "weapon_pistol", price = 140000, amount = 1, scratchprice = 2500 },
+		[2] = { name = "weapon_microsmg", price = 85000, amount = 1, scratchprice = 2500 },
+		[3] = { name = "weapon_appistol", price = 55000, amount = 1, scratchprice = 2500 },
 	},
 }
 Config.Locations = {
