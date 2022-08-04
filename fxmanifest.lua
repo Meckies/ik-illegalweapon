@@ -11,7 +11,7 @@ server_scripts { '@oxmysql/lib/MySQL.lua', 'server.lua', }
 shared_scripts {
     'config.lua',
     '@qb-core/shared/locale.lua',
-    'locales/en.lua',
+    'locales/cs.lua',
 }
 
 lua54 'yes'
